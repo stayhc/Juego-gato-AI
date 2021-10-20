@@ -23,7 +23,7 @@ class JugadorHumano(Jugador):
                     raise ValueError
                 cuadrado_valido = True
             except ValueError:
-                print('Cuadrado inválido, elije otro.')
+                print('Cuadrado inválido, elige otro.')
         return val
 
 class JugadorComputadorAi(Jugador):
